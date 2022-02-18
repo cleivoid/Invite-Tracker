@@ -1,5 +1,5 @@
 module.exports = {
-    prefix: "i.", // The prefix of the bot
+    prefix: "iv.", // The prefix of the bot
     welcomeChannel: "831027601958895616", // The channel ID of where join and leave messages should be sent
     slashCommands: true, // Wether or not the bot should have slash commands
     colors: {
