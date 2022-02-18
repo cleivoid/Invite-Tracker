@@ -94,5 +94,5 @@ client.fetchApplication().then((application) => {
 });
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`i.help`, { type: "PLAYING" });
+  client.user.setActivity(`iv.help`, { type: "PLAYING" });
 });
