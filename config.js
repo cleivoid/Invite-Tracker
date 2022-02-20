@@ -9,7 +9,7 @@ module.exports = {
     botstatus: {
         enabled: true, // Wether or not the bot should have a status
         status: "dnd", // The status of the bot (dnd, online, idle, invisible)
-        activity_type: "PLAYING", // The type of the activity (watching, listening, playing, streaming)
+        activity_type: "STREAMING", // The type of the activity (watching, listening, playing, streaming)
         activity_text: "Pornhub", // The activity text
         activity_url: "https://pornhub.com" // The stream URL
     },
