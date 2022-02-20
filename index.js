@@ -92,7 +92,4 @@ client.fetchApplication().then((application) => {
     if(owners instanceof Team) {owners = owners.members.map(user => user.id)} else {owners = owners.id};
     client.ownerID = owners;
 });
-client.on("ready", () => {
-  console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`iv.help`, { type: "PLAYING" });
-});
+
